@@ -27,7 +27,7 @@ some utils for converting ckpt model to keras model,and keras model to pb model.
 
 ### converted model's inference and test
 + Code for eval converted model's performance
-+ At first, use dfsmodel function(line 121) to load ckpt to keras model's weights, otherwise it will not be loaded successfully.
++ At first, use dfsmodel function(line 104) to load ckpt to keras model's weights, otherwise it will not be loaded successfully.
 + After first loading phase, you can use save_weights function to save now weights for this keras models. 
 + Then you can use load_weights to load now weights for inference/test keras models.
 
