@@ -1,5 +1,6 @@
 # MobilenetV3SSDLite-tfkeras
-tensorflow keras implement of mobilenet v3 ssdlite, same structure as tensorflow model
+tensorflow keras implement of mobilenet v3 ssdlite, same structure as tensorflow model.
+some utils for converting ckpt model to keras model,and keras model to pb model.
 
 ##  Environments
 + python 3.6
@@ -7,7 +8,7 @@ tensorflow keras implement of mobilenet v3 ssdlite, same structure as tensorflow
 + cuda 10
 + cudnn 7.6.5
 + pycocotools
-+ tensorflow object detection api[https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md]
++ [tensorflow object detection api](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
 
 ## Introductions
 ### overall
@@ -42,5 +43,7 @@ tensorflow keras implement of mobilenet v3 ssdlite, same structure as tensorflow
 
 ## reference
 [1] https://github.com/tensorflow/models/tree/master/research/object_detection
+
 [2] https://github.com/markshih91/mobilenet_v2_ssdlite_keras
+
 [3] https://github.com/Bisonai/mobilenetv3-tensorflow
