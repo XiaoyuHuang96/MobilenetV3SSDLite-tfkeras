@@ -31,14 +31,14 @@ some utils for converting ckpt model to keras model,and keras model to pb model.
 + After first loading phase, you can use save_weights function to save now weights for this keras models. 
 + Then you can use load_weights to load now weights for inference/test keras models.
 
-+ Infer several images by ./experiments/tfckpt2keras_inference.py
-+ Eval performance by ./experiments/tfckpt2keras_test.py
++ Infer several images by ./tfckpt2keras_inference.py
++ Eval performance by ./tfckpt2keras_test.py
 
 ### keras model's train,inference and test
 + You can also use this repo to train your own keras models.
-+ This repo can be trained by ./experiments/tfkeras_train.py
-+ This repo can be inferenced by ./experiments/tfkeras_inference.py
-+ This repo can be evaled by ./experiments/tfkeras_test.py
++ This repo can be trained by ./tfkeras_train.py
++ This repo can be inferenced by ./tfkeras_inference.py
++ This repo can be evaled by ./tfkeras_test.py
 
 
 ## reference
